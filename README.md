@@ -1,6 +1,6 @@
 # my-cyber-portfolio
 
-Welcome to the CyberSecurity Portfolio repository. This repo contains a blend of executable assets (Python scripts, SQL schemas, Linux commandline utilities) and the supporting documentation (risk assessments, incidentresponse playbooks, journals) that describe the security concepts behind each project. Everything is organized so you can either run the code directly or study the methodology in the accompanying docs.
+Welcome to the Cybersecurity Portfolio repository. This repo contains a blend of executable assets (Python scripts, SQL schemas, Linux commandline utilities) and the supporting documentation (risk assessments, incident response playbooks, journals) that describe the security concepts behind each project. Everything is organized so you can either run the code directly or study the methodology in the accompanying docs.
 
 | # | Project | Description |
 |---|---------|-------------|
@@ -15,29 +15,32 @@ Welcome to the CyberSecurity Portfolio repository. This repo contains a blend o
 📁REPOSITORY LAYOUT
 
 /Cyber‑Portfolio
-│
+
+
 ├─ /Internal_audit
-│   ├─ Scenario.md
-│   │
-│   ├─ Scope-goals-and risk-assessment_report.pdf  
-│   |
-│   ├─ Controls_Checklist.pdf
-│   │ 
-│   ├─ Compliance_Checklist.pdf
+|   ├─ Scenario.md
+|   │
+|   ├─ Scope-goals-and risk-assessment_report.pdf  
+
+  ├─ Controls_Checklist.pdf
+|   │ 
+|   ├─ Compliance_Checklist.pdf
 |   |
-│   └─ Analysis.md
-│
+|   └─ Analysis.md
 |
+|
+
 ├─ /Incident_analysis
-│   ├─ Scenario.md
-│   │  
-│   ├─ NIST-CSF-framework.pdf
+|   ├─ Scenario.md
+|   │  
+|   ├─ NIST-CSF-framework.pdf
 │   |
 │   ├─ Incident_report_analysis.pdf
 │   │   
 │   └─ Analysis.md
 │       
 │
+
 ├─ /Linux-file-permissions
 │   ├─ Scenario.md
 │   │  
@@ -48,6 +51,7 @@ Welcome to the CyberSecurity Portfolio repository. This repo contains a blend o
 │   └─ Notes.md
 │       
 │
+
 ├─ /SQL_queries
 │   ├─ Scenario.md
 │   │ 
@@ -58,6 +62,7 @@ Welcome to the CyberSecurity Portfolio repository. This repo contains a blend o
 │   └─ Summary.md
 │      
 │
+
 ├─ /Vulnerability_assessment
 │   ├─ Scenario.md
 │   │
@@ -68,6 +73,7 @@ Welcome to the CyberSecurity Portfolio repository. This repo contains a blend o
 │   └─ Summary.md
 │   
 │
+
 ├─ /Incident_handler's_journal
 |   ├─Scenario.md
 |   |
@@ -76,6 +82,7 @@ Welcome to the CyberSecurity Portfolio repository. This repo contains a blend o
 |   └─ Notes.md
 |
 |
+
 ├─ /Update_a_file_through_a_Python_algorithm
 |   ├─ Scenario.md
 |   |
@@ -86,6 +93,7 @@ Welcome to the CyberSecurity Portfolio repository. This repo contains a blend o
 |   └─ Sumamry.md
 |
 |
+
 └─ README.md                    ← (this file)
 
 
@@ -98,16 +106,16 @@ NIST-SP-800-30-Rev.1 -- is a cybersecurity risk assessment guide. It outlines a 
 
 🛠️ Adding New Projects
 
-  Contributions are encouraged—whether you’re improving documentation, fixing a script, or adding a brand‑new lab. Please follow these steps:
-  1. Fork the repository.
-  2. Create a feature branch (git checkout -b feature/<short‑name>).
-  3. Make your changes, ensuring that any new scripts run cleanly (./test_all.sh is provided at the repo root to sanity‑check all projects).
-  4. Submit a Pull Request with a clear description of what you changed and why.
+Contributions are encouraged—whether you’re improving documentation, fixing a script, or adding a brand‑new lab. Please follow these steps:
+1. Fork the repository.
+2. Create a feature branch (git checkout -b feature/<short‑name>).
+3. Make your changes, ensuring that any new scripts run cleanly (./test_all.sh is provided at the repo root to sanity‑check all projects).
+4. Submit a Pull Request with a clear description of what you changed and why.
 
 
 📞 Contact
 
-  Email: bkevinraj@protonmail.com
-  LinkedIn: www.linkedin.com/in/kr29
+Email: bkevinraj@protonmail.com
+LinkedIn: www.linkedin.com/in/kr29
 
 Feel free to open an issue if you encounter bugs, have questions about a particular lab, or want to discuss collaboration opportunities. Happy hacking—and stay secure!
